@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/stub-modules.nix
 #
 # A tiny, self-contained stand-in for nixhost -- NOT the real repo -- declaring just enough

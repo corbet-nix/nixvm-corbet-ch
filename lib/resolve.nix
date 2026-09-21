@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The channel resolution: pure functions from a list of selected catalogue entries to the
 # per-plane outputs a backend consumes. No module system, no `pkgs`, no `config` -- so

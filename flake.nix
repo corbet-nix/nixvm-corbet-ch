@@ -1,9 +1,10 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "A declarative home for VM workloads -- a libvirt/QEMU-KVM host stance for NixOS and for distro hosts via system-manager, plus persistent guest definitions as data. The peer of nixk3s: nixk3s is bare metal running k3s, nixvm is bare metal running VMs, and neither owns the other.";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-  # nixhost IS an input, for exactly one thing: `lib.probeFact` (github:julian-corbet/
+  # nixhost IS an input, for exactly one thing: `lib.probeFact` (github:corbet-nix/
   # nixhost-corbet-ch, `lib/facts.nix`) -- the shared, plain-function fix for the cross-namespace
   # defensive-read defect class `modules/guests/default.nix`'s own `nixhostEnvironmentsProbe`
   # leans on (see nixhost's own `lib/facts.nix` header). One recipe, not a second copy -- the
@@ -16,7 +17,7 @@
   # stays a defensive, zero-flake-dependency probe -- only the `probeFact` MECHANISM itself is
   # consumed rather than vendored.
   inputs.nixhost = {
-    url = "github:julian-corbet/nixhost-corbet-ch";
+    url = "github:corbet-nix/nixhost-corbet-ch";
     inputs.nixpkgs.follows = "nixpkgs";
   };
 

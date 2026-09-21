@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/vm-host/arch.nix
 #
 # The Arch/system-manager backend. Publishes the stance as pacman/AUR names for the host's own

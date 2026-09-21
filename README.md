@@ -145,6 +145,6 @@ the zvol/`nossd` gotcha with `nossd` actually missing, all fail evaluation by na
 than producing something half-formed. Nothing here has yet hosted a guest on real hardware;
 that is the next step, not this one.
 
-## License
+## Licence
 
-[MIT License](LICENSE) &copy; 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

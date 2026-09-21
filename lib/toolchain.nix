@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The virtualisation toolchain catalogue: one entry per tool, naming it on each platform, plus the
 # guest-architecture table `nixvm.host.foreignArchitectures` selects from.

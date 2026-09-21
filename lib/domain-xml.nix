@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # lib/domain-xml.nix
 #
 # Pure rendering: (name, guest, bridge) -> a libvirt domain XML document, as a plain

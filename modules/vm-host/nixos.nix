@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/vm-host/nixos.nix
 #
 # The NixOS backend: turns the neutral stance in ./vm-host.nix into `virtualisation.libvirtd`,

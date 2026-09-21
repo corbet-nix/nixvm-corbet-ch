@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The smallest NixOS configuration that lets `nixvm.host` be evaluated as part of a real
 # system, used by the `host-module-evaluates` check. `nixvm.guests` is untouched here --
 # a host that only wants the hypervisor capability, with no guest defined yet, imports

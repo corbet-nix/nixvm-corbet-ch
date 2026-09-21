@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/guests/default.nix
 #
 # Guest VM DEFINITIONS, as data: `nixvm.guests.<name>` describes a persistent guest's

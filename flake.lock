@@ -73,13 +73,13 @@
       "locked": {
         "lastModified": 1785787403,
         "narHash": "sha256-6wj8qYt9Hu/Frycwxd/gbSlxLFNtgZJxqS7o20bWjcU=",
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixhost-corbet-ch",
         "rev": "f4eea9307026c5ee6d1249b6c0f8b5b890b7e2c3",
         "type": "github"
       },
       "original": {
-        "owner": "julian-corbet",
+        "owner": "corbet-nix",
         "repo": "nixhost-corbet-ch",
         "type": "github"
       }

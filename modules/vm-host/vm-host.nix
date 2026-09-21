@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/vm-host/vm-host.nix
 #
 # ONE declarative hypervisor stance per host, PLATFORM-NEUTRAL: what this machine may run as a

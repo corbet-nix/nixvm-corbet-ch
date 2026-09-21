@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The smallest configuration that composes BOTH modules together with one real guest
 # defined, used by the `guests-module-evaluates` check and by the render-content checks
 # that inspect the generated domain XML. Every value is generic; nothing here names a

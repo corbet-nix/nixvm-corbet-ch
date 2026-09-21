@@ -49,7 +49,7 @@ second ceiling here would not duplicate that check, it would **disarm** it: nixh
 would keep summing numbers nobody rendered while this module rendered different ones.
 So this module reads the envelope instead, matched **by name**
 (`nixvm.guests.<name>` ↔ `nixhost.environments.<name>`), through `lib.probeFact`
-(`lib/facts.nix`, consumed from [nixhost](https://github.com/julian-corbet/nixhost-corbet-ch) via
+(`lib/facts.nix`, consumed from [nixhost](https://github.com/corbet-nix/nixhost-corbet-ch) via
 this repo's own `nixhost` flake input — see that file's own header for the full defect-class
 writeup) rather than a bare `config.nixhost.environments or { }`. The CONFIG read itself is still
 never a flake input — a host that has never imported nixhost still evaluates, at least as far as

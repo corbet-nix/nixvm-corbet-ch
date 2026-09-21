@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The file-backed storage-pool apply units, as a pure function of `lib`, a `virsh` path and the
 # declared pools -- so both backends render the SAME units and only disagree about where `virsh`
